@@ -1,11 +1,5 @@
 {
-    "openaiapikey": "APIKEYHERE", //Your Open AI API key
-    "bottokenkey": "BOTTOKENHERE", // Your bot Discord Token
-    "botprefix": "chatgpt" //Prefix for the bot to use
+    "openaiapikey": "APIKEYHERE",
+    "bottokenkey": "BOTTOKENHERE",
+    "botprefix": "chatgpt"
 }
-
-/*
-This is a bot that uses OpenAI and it's API to let the discord bot think like an AI
-Change the settings at your own risk
-I am not responsable for any misuse
-*/

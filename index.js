@@ -5,7 +5,7 @@ const config = require("./config.json");
 openai.apiKey = config.openaiapikey;
 
 const client = new Discord.Client();
-client.login(bottokenkey);
+client.login(config.bottokenkey);
 
 client.on('message', message => {
   if (message.content.startsWith('pingchatgpt')) {

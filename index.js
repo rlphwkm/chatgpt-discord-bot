@@ -19,13 +19,13 @@ client.on('message', message => {
     const prompt = message.content.slice(config.botprefix.length).trim();
 
     // Send a request to the ChatGPT API with the prompt
-    openai.completions.create({
-      prompt,
-      temperature: 0.5,
-      max_tokens: 128,
-      top_p: 1,
-      frequency_penalty: 0,
-      presence_penalty: 0
+    openai.completion({
+      engine: 'text-davinci-002',
+      prompt: message.content,
+      max_tokens: 2048,
+      temperature: 0.7,
+    }, (error, response) => {
+      message.channel.send(response.text);
     })
       .then(response => {
         // Send the ChatGPT response back to the Discord channel

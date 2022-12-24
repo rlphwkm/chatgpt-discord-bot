@@ -1,7 +1,7 @@
 {
   "name": "my-discord-bot",
   "version": "1.0.0",
-  "description": "My Discord bot using JavaScript, ChatGPT, and OpenAI",
+  "description": "Discord bot using JavaScript, ChatGPT, and OpenAI",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

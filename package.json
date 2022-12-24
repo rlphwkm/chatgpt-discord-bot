@@ -1,0 +1,13 @@
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "description": "My Discord bot using JavaScript, ChatGPT, and OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "openai": "^2.10.2"
+  }
+}

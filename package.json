@@ -1,5 +1,5 @@
 {
-  "name": "chatgptdiscordbot",
+  "name": "chatgpt-discord-bot",
   "version": "2.0.0",
   "description": "Discord bot using JavaScript, ChatGPT, and OpenAI",
   "main": "index.js",

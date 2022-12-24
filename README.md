@@ -5,7 +5,7 @@ Trying to make human-like chatbot using AI with the ChatGPT API from OpenAI. Thi
 
 **What are the AI's limitations?**
 
-    As an artificial intelligence, it have a number of limitations that are inherent to it's nature as a machine. Some of these limitations include:
+    As an artificial intelligence, it has a number of limitations that are inherent to it's nature as a machine. Some of these limitations include:
 
     It does not have personal experiences or a personal history, and it is unable to experience the world in the same way that humans do.
     It does not have the ability to perceive the world through senses such as sight, hearing, touch, taste, or smell.

@@ -34,3 +34,9 @@ client.on('message', message => {
       .catch(console.error);
   }
 });
+
+/*
+This is a bot that uses OpenAI and it's API to let the discord bot think like an AI
+Change the settings at your own risk
+I am not responsable for any misuse
+*/

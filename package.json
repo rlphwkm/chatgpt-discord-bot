@@ -3,11 +3,17 @@
   "version": "2.0.0",
   "description": "Discord bot using JavaScript, ChatGPT, and OpenAI",
   "main": "index.js",
+  "start": "index.js",
+  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^11.6.4",
     "openai": "^2.10.2"
-  }
+  },
+  "keywords": [],
+  "author": "rlphwkm",
+  "license": "MIT"
 }
